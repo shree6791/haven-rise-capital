@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { Menu, X, Sunrise } from 'lucide-react';
 import BookCallButton from './BookCallButton';
@@ -22,7 +24,6 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex md:items-center md:space-x-8">
             {navigation.map((item) => (
               <a
@@ -36,7 +37,6 @@ const Header = () => {
             <BookCallButton />
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -47,7 +47,6 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Mobile menu */}
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="pt-2 pb-3 space-y-1">

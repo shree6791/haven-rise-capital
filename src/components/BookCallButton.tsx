@@ -1,6 +1,8 @@
+'use client';
+
 import React from 'react';
 import Button from './ui/Button';
-import { useCalendly } from '../hooks/useCalendly';
+import { CALENDLY_URL } from '@/src/lib/constants';
 
 interface BookCallButtonProps {
   variant?: 'primary' | 'secondary';
@@ -8,12 +10,10 @@ interface BookCallButtonProps {
 }
 
 const BookCallButton = ({ variant = 'primary', className = '' }: BookCallButtonProps) => {
-  const { openCalendly } = useCalendly();
-
   return (
     <Button
       variant={variant}
-      onClick={openCalendly}
+      href={CALENDLY_URL}
       className={className}
     >
       Book a Call
