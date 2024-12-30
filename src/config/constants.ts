@@ -1,1 +1,1 @@
-export const CALENDLY_URL = 'https://calendly.com/your-calendly-link'; // Replace with your actual Calendly link
+export const CALENDLY_URL = 'https://calendly.com/shree6791/'; // Replace with your actual Calendly link
