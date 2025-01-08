@@ -42,8 +42,8 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center group">
                 <Mail className="h-5 w-5 mr-2 text-secondary-400 group-hover:text-secondary-300" />
-                <a href="mailto:info@havenrisecapital.com" className="text-accent-200 hover:text-secondary-400 transition-colors">
-                  info@havenrisecapital.com
+                <a href="mailto:shreenidhi@havenrisecapital.com" className="text-accent-200 hover:text-secondary-400 transition-colors">
+                  shreenidhi@havenrisecapital.com
                 </a>
               </li>
               <li className="flex items-center group">
